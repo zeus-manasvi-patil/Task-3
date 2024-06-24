@@ -60,8 +60,8 @@ main{
 .container2{
     display: grid;
     /* align-content: stretch; */
-    height: 100vh;
-    
+    /* height: 100vh; */
+    background-color: white;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     grid-template-areas: 
@@ -102,4 +102,20 @@ footer{
     align-items: center;
     gap: 8px;
     padding: 5px 8px;
+}
+
+.results{
+    /* padding: 10px 0; */
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+.results div:first-child{
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.results .text-muted{
+    font-size: 10px;
+
 }
